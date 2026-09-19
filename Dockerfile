@@ -17,4 +17,4 @@ COPY server_build/ /server/
 
 RUN chmod +x /server/MiniMilitiaServer.x86_64
 
-CMD ["/server/MiniMilitiaServer.x86_64", "--headless", "--scene", "res://Server/dedicated_server.tscn"]
+CMD ["/server/MiniMilitiaServer.x86_64"]
